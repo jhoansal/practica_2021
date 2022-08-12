@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>PrincipalWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1> Bienvenido </h1>
+    <main>
+
+    
+    <h2> Pagina Principal </h2>
+    <!-- Comentario en Html no afecta la pagina -->
+    <a href="#parrafo-1">Parrafo 1</a>
+    <a href="#parrafo-2">Parrafo 2</a>
+    <a href="#parrafo-3">Parrafo 3</a>
+    <a href="#parrafo-4">Parrafo 4</a>
+    <a href="#parrafo-5">Parrafo 5</a>
+
+    <p>Haz click aqui para ver imagenes</p>
+    <p>este parrafo es demasiado grande para que se muestre en una sola linea motivo por el cual se ha tenido que utilizar las teclas Alt Z </p>
+    <p>para abrir un link en un texto, se utiliza 'a>' y se agrega href= "" hace referencia a Link que va a abrir o ejecutar y se muestra en la misma pagina, si desea abrirla en una pagina diferencia adicionar despues del link la intruccion 'target = "blank" ' y rel= 'noopener noreferrer' para seguridad por cualquier ataque</p>
+    <p>obtener <a target ='blank' href="https://www.freecodecamp.org/espanol/" rel 
+= 'noopener noreferrer'> imagen desde el internet</a> </p>
+
+    <img class="borde-redondeado" src="https://bit.ly/fcc-relaxing-cat" alt="lindo gatito">
+    
+    <form action="/link abrir">
+      
+      <!-- la etiqueta for y la id hace refencia que se ubique como si fuera un solo frame 
+      
+      botones de Radio -->
+      <label for="interior">
+        <input id='interior' type='radio' name ='grupo-IE' value='interior' checked> Interior 
+      </label><br>
+
+      <label for="exterior">
+        <input id='exterior'type='radio'name ='grupo-IE' value = 'exterior'> Exterior 
+      </label>      <br><br>
+
+      <!-- casillas de verificacion adicionar checked para indicar que este queda marcado por defecto. -->
+      <label for="entrada">
+        <input id='entrada' type='checkbox' name ='personalidad' value= 'entrada' checked> Entradas 
+      </label><br>
+      <label for="salida">
+        <input id='salida' type='checkbox' name ='personalidad' value="salida"> SAlidas 
+      </label><br>
+      
+
+
+
+
+
+      <!-- entrada de texto -->
+      <input type="text" placeholder="Texto q aparece como recomendaciomes" required>
+
+      <button type="submit"> Enviar datos </button>
+
+
+
+
+    </form>
+
+
+    <p>para que se muestre una barra de separacion solo con 'hr' no necesita etiqueta de cierre para esta instruccion </p>
+    <hr>
+    <h3> listas de lo que usas </h3>
+
+    <p>cosas que amamos con <strong>Viñetas</strong> o lista no ordenas</p>
+    <ul class="cambia-color">
+      <li>camisas</li>
+      <li>pantalon</li>
+      <li>medias</li>
+      <li><s>zapatos</s></li>
+    </ul>
+
+    <p>cosas que amamos con <em>numeros</em> en forma ordena</p>
+    <ol class="cambia-color">
+      <li>camisas</li>
+      <li>pantalon</li>
+      <li>medias</li>
+      <li>zapatos</li>
+    </ol>
+
+    <h2 id="parrafo-1">Parrafo 1</h2>
+
+    <p> la texto alt en img, es para que al momento de no poder cargar la imagen se muestre el texto y no de error, en el ejemplo anterior va a mostrar el texto "lindo gatito"</p>
+    
+    <h2 id="parrafo-2">Parrafo 2</h2>
+    <p>obtener imagen desde mi carpeta</p>
+    <a href="https://www.freecodecamp.org/espanol/" target ='blank' rel 
+    = 'noopener noreferrer'>
+      <img src="imagenes/foto1.jpg" alt="por si no sale">
+    </a>
+    <h2 id="parrafo-3">Parrafo 3</h2>
+    <p>para ocultar la barra de actividades hacer click en cualquier punto de la barra click derecho y Ocultar barra </p>
+    
+    <h2 id="parrafo-4">Parrafo 4</h2>
+    <p> para volver a mostrar la barra de actividades en VER luego APARIENCIA y luego selecciona MOSTRAR BARRA DE ACTIVIDADES</p>
+    
+    <h2 id="parrafo-5">Parrafo 5</h2>
+    <p>para comentar 1 linea o mas se selecciona lo que se desea comentar y luego se presiona las teclas Ctrl + / y en ese momento se comenta </p>
+    
+    <p>para enlazar parte de la pagina como lo hacemos con ejemplo de los parrafos </p>
+
+    </main>
+    <footer>
+      <p><small> sin derechos de Autor - <a href="https://www.freecodecamp.org/espanol/" target="blank" rel='noopener noreferrer'> freecode.org </a> </small> </p>
+
+
+    </footer>
+  </body>
+</html>

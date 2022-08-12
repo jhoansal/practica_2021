@@ -1,0 +1,23 @@
+h1 {color:darkblue; font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+h2 {color:darkorange; font-size: 35px;font-family: 'Roboto', sans-serif;}
+h3 {color:crimson;font-size: 20px;font-family: 'Dancing Script', cursive;}
+p {color: rgb(255,0,0);}
+/* para cambiar color a la classes con el nombre cambia-color a chocolote, se inicia con .nombre de la clase */
+.cambia-color {color:#d2691e}
+
+img {
+  width: 250px;
+  border-width: 10px;
+  border-color:cornsilk;
+  border-style: groove double double groove;
+}
+
+.borde-redondeado {
+  border-radius: 20px;
+}
+
+#parrafo-1 {
+  font-size: 40px;
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
